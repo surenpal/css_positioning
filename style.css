@@ -1,0 +1,47 @@
+.container {
+  background-color: lightslategray;
+  overflow: visible;
+  height: 1000vh;
+}
+
+.static {
+  background-color: aquamarine;
+  height: 50px;
+  width: 100%;
+}
+
+.sticky {
+  background-color: cornflowerblue;
+  position: sticky;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  border: 2px solid #b47caf;
+}
+
+.relative {
+  background-color: blueviolet;
+  position: relative;
+  height: 150px;
+  width: 200px;
+  margin: 50px;
+}
+
+.absolute {
+  background-color: burlywood;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: 90px;
+}
+
+.fixed {
+  background-color: darkgoldenrod;
+  position: fixed;
+  height: 150px;
+  width: 200px;
+  margin: 50px;
+  margin-left: 400px;
+}
